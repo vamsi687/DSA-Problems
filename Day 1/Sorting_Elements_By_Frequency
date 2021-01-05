@@ -128,3 +128,8 @@ class SortComparator implements Comparator<Integer>
             return freqCompare; 
     } 
 } 
+
+Time Complexity : O(NlogN)
+Space Complexity : O(N)
+
+Resources : https://www.geeksforgeeks.org/sort-elements-by-frequency-set-5-using-java-map/
