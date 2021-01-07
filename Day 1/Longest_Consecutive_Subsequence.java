@@ -1,3 +1,4 @@
+/*
 Question:
 
 Given an array A of integers. Find the length of the longest sub-sequence such that elements in the sub-sequence are consecutive integers,
@@ -23,7 +24,7 @@ Output:
 5
 
 Solution in JAVA :
-
+*/
 import java.util.Scanner;
 import java.util.*;
 import java.util.HashSet;
@@ -96,7 +97,9 @@ class Longest_Consecutive_Subsequence
     }
 }
 
+/*
 Time Complexity : O(N)
 Space Complexity : O(N)
 
 Resources : https://www.geeksforgeeks.org/longest-consecutive-subsequence/
+*/
