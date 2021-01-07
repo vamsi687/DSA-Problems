@@ -1,5 +1,5 @@
 // Sorting Array elements by it's Frequency
-
+/*
 Question :
 Given an array of integers, sort the array according to frequency of elements. That is elements that have higher frequency come first.
 If frequencies of two elements are same, then smaller number comes first.
@@ -39,9 +39,7 @@ element first.
 The output is 9 9 9 2 5.
 
 Solution in JAVA.
-
-// { Driver Code Starts
-//Initial Template for Java
+*/
 
 import java.util.*;
 import java.io.*;
@@ -129,7 +127,9 @@ class SortComparator implements Comparator<Integer>
     } 
 } 
 
+/*
 Time Complexity : O(NlogN)
 Space Complexity : O(N)
 
 Resources : https://www.geeksforgeeks.org/sort-elements-by-frequency-set-5-using-java-map/
+*/
