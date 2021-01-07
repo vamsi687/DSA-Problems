@@ -69,6 +69,7 @@ class MergeInt {
             prev = out.get(out.size()-1);
             if(prev[1] >= cur[0])
             {
+		// Here, prev value is changed in the out list also as we are changing it by reference.
                 prev[1] = Math.max(prev[1],cur[1]);
                 continue;
             }
