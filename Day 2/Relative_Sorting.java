@@ -1,5 +1,5 @@
 //Sort the First Array based on the Second Array
-
+/*
 Question : 
 Given two integer arrays. Sort the first array such that all the relative positions of the elements in the first array are same as the elements in the second array.
 
@@ -36,7 +36,7 @@ No A2 elements are in A1
 so we cannot sort A1 according to A2.
 Hence we sort the elements in 
 non-decreasing order.
-
+*/
 // Solution in JAVA
 
 import java.util.*;
@@ -152,7 +152,7 @@ public static void sortA1ByA2(int A1[], int N, int A2[], int M)
 }
 
 }
-
+/*
 Time Complexity : O(NlogN)
 Space Complexity : O(N)
-
+*/
