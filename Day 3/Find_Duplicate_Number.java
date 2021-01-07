@@ -1,5 +1,5 @@
 // Find the Duplicate Number with O(1) space complexity and less than O(N2) Time Complexity.
-
+/*
 Question :
 Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
 
@@ -21,11 +21,12 @@ Input: nums = [1,1]
 Output: 1
 
 Answer in JAVA :
+*/
 
 import java.util.*;
 public class FindDuplicate
 {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     //Get length of Array
     int Length = sc.nextInt();
