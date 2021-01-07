@@ -1,5 +1,5 @@
 // Display the count of the Sub Arrays whose sum = 0
-
+/*
 Question :
 You are given an array A[] of size N. Find the total count of sub-arrays having their sum equal to 0.
 
@@ -29,8 +29,8 @@ Output: 4
 Explanation: 
 The 4 subarrays are [-1 -3 4]
 [-2 2], [2 4 6 -12], and [-1 -3 4 -2 2]
-
-Solution in JAVA :
+*/
+//Solution in JAVA :
 
 import java.io.*;
 import java.util.*;
@@ -81,5 +81,7 @@ public static int findSubarray(int[] arr ,int n)
     return count;
 }
 
+	/*
 Time Complexity : O(N)
 Space Complexity : O(N)
+*/
