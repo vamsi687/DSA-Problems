@@ -1,3 +1,4 @@
+/*
 Question :
 Given an array with repeated elements, the task is to find the maximum distance between two occurrences of an element.
 
@@ -37,6 +38,7 @@ maximum distance for 4 is 10-5 = 5
 
 
 Solution in JAVA :
+*/
 
 import java.util.Scanner;
 import java.util.*;
@@ -99,5 +101,7 @@ class MaxDistance
     }
 }
 
+/*
 Time Complexity : O(N)
 Space Complexity : O(N)
+*/
