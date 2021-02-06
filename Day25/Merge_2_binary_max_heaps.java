@@ -2,7 +2,7 @@
 Question :
 Given two binary max heaps as arrays, merge the given heaps, after merging the two arrays.
 The task is very simple to merge the two arrays firstly keep all the elements of first array
-than elements second array, than apply the merge operation of heaps.
+than elements second array, than apply the merge operation of heaps
 
 Input:
 First line consists of T test cases. First line of every test case consists of 2 integers N and M, 
